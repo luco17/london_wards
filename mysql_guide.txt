@@ -1,0 +1,22 @@
+My SQL guide
+
+#Login:
+ mysql -u root -p
+
+#See list of dbs:
+ SHOW DATABASES;
+
+#Switch to database:
+ USE dbname
+
+#List all tables:
+ SHOW TABLES;
+
+#List users and hosts:
+ SELECT host, User FROM mysql.user;
+
+#Port
+ Mariadb almost always runs on port 3306
+
+#Connecting and running the DB
+
